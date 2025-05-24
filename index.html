@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build AI Agents</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin: 1rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 2rem;
+            transition: background-color 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            background-color: var(--card-bg);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤖 How to Build AI Agents</h1>
+            <p class="subtitle">A comprehensive guide and resource repository for building intelligent AI systems that can perceive, decide, act, and learn autonomously.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid">
+            <div class="card">
+                <h2>🎯 What are AI Agents?</h2>
+                <p>AI agents are sophisticated software systems designed to operate autonomously. They can:</p>
+                <ul>
+                    <li>Perceive their environment</li>
+                    <li>Make decisions autonomously</li>
+                    <li>Take actions to achieve goals</li>
+                    <li>Learn and adapt from experience</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🚀 Getting Started</h2>
+                <h3>Prerequisites:</h3>
+                <ul>
+                    <li>Python 3.8+</li>
+                    <li>Basic ML knowledge</li>
+                    <li>Framework familiarity</li>
+                </ul>
+                <a href="https://github.com/Seven-11-stc/how-to-build-ai-agents" class="cta-button">View Repository</a>
+            </div>
+
+            <div class="card">
+                <h2>🛠️ Technologies</h2>
+                <ul>
+                    <li>TensorFlow/PyTorch</li>
+                    <li>OpenAI Gym</li>
+                    <li>LangChain</li>
+                    <li>Custom frameworks</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🌟 Best Practices</h2>
+                <ul>
+                    <li>Start with simple implementations</li>
+                    <li>Use modular design patterns</li>
+                    <li>Implement safety measures</li>
+                    <li>Test thoroughly</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>📚 Learning Resources</h2>
+                <ul>
+                    <li>Step-by-step tutorials</li>
+                    <li>Code examples</li>
+                    <li>Documentation</li>
+                    <li>Best practices guides</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🤝 Contributing</h2>
+                <p>We welcome contributions from the community! Whether it's:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                    <li>New features</li>
+                    <li>Documentation improvements</li>
+                    <li>Example implementations</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>⭐ If you find this project helpful, please consider giving it a star on GitHub!</p>
+        <a href="https://github.com/Seven-11-stc/how-to-build-ai-agents" class="cta-button">Visit GitHub Repository</a>
+    </footer>
+</body>
+</html> 
